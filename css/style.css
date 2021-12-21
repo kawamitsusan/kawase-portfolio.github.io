@@ -189,9 +189,9 @@ header a {
     width: 94vw;
     margin: 0 auto 3vw;
     display: grid;
-    gap: 2vw;
-    grid-template-columns: repeat(2, 46vw); 
-    grid-template-rows: repeat(4, 46vw);
+    gap: 6vw;
+    grid-template-columns: repeat(2, 44vw); 
+    grid-template-rows: repeat(5, 44vw);
 }
 .grid-item {
     width: 100%;
