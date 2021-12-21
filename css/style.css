@@ -190,8 +190,8 @@ header a {
     margin: 0 auto 3vw;
     display: grid;
     gap: 2vw;
-    grid-template-columns: repeat(3, 46vw); 
-    grid-template-rows: repeat(3, 46vw);
+    grid-template-columns: repeat(2, 46vw); 
+    grid-template-rows: repeat(4, 46vw);
 }
 .grid-item {
     width: 100%;
