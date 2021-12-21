@@ -186,12 +186,12 @@ header a {
 }
 /*GRID*/
 .grid {
-    width: 98vw;
-    margin: 0 auto 1vw;
+    width: 80vw;
+    margin: 0 auto 10vw;
     display: grid;
-    gap: 12vw;
-    grid-template-columns: repeat(2, 43vw); 
-    grid-template-rows: repeat(5, 43vw);
+    gap: 20vw;
+    grid-template-columns: repeat(1, 80vw); 
+    grid-template-rows: repeat(9, 80vw);
 }
 .grid-item {
     width: 100%;
