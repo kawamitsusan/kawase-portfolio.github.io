@@ -9,6 +9,7 @@
 
         <link rel="stylesheet" href="https://unpkg.com/destyle.css@1.0.5/destyle.css">
         <link rel="stylesheet" href="https://use.typekit.net/fbj0zcb.css">
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
         <link href="css/style.css" rel="stylesheet">
     </head>
 
@@ -21,6 +22,7 @@
                     <ul class="main-nav">
                         <li><a href="#about">About Me</a></li>
                         <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#skill">Skill</a></li>
                         <li><a href="#contact">Contact</a></li>
                     </ul>
                 </nav>
@@ -40,39 +42,78 @@
         <section id="about" class="wrapper">
             <h2>About Me</h2>
             <div class="about-list">
-                <div class="about-text">
-                    <h3>Kawase</h3>
-                    <p>
-                        出身・居住地：岐阜県<br>
-                        大学：愛知淑徳大学人間情報3年<br>
-                        趣味：映画鑑賞、音楽ゲーム、散歩<br>
-                        資格：基本情報技術者試験、情報セキュリティマネジメント試験、ITパスポート<br>
-                    </p>
-                </div>
-                <img src="images/profile.jpg" alt="profile">
+                    <center>
+                        <img  class="about-img" src="images/profile.jpg" alt="profile">
+                    <center>
+                    <div class="about-text">
+                        <h3>Kawase</h3>
+                        <p>
+                            出身・居住地：岐阜県<br>
+                            大学：愛知淑徳大学人間情報学部3年<br>
+                            趣味：映画鑑賞、音楽ゲーム、散歩<br>
+                        </p>
+                    </div>
             </div>
         </section>
 
         <section id="portfolio">
             <h2>Portfolio</h2>
             <div class="wrapper">
-                https://kkblab.com/oc2021/18071/index.html<br>
 
-                https://gasumasuo.com<br>
+                
+            </div>
+        </section>
 
-                https://kawamitsusan.github.io/<br>
+        <section id="skill" class="fadein scrollin" data-aos="fade-up">
+            <div class="skill_container">
+              <h2>Skill</h2>
+              <div class="skill_content">
+                <div class="skill_content_item">
+                    <h3>主な経験済言語・ソフトウェア</h3>
+                    <p>
+                        HTML<br>CSS<br>JavaScript<br>
+                        VisualBasic<br>C<br>Java<br>Python<br>
+                        Photoshop<br>Illustrator<br>PremierePro<br>AfterEffects<br>
+                    </p>
+                </div>
+                <div class="skill_content_item">
+                    <h3>その他の経験済言語・ソフトウェア</h3>
+                    <p>
+                        SonicPi<br>processing<br>Scratch<br>ArduinoIDE
+                    </p>
+                </div>
+                <div class="skill_content_item">
+                    <h3>取得済の資格</h3>
+                    <p>
+                        基本情報技術者試験<br>情報セキュリティマネジメント試験<br>ITパスポート試験
+                    </p>
+                </div>
+              </div>
             </div>
         </section>
 
         <section id="contact" class="wrapper">
             <h2>Contact</h2>
-            <div class="footer wrapper">
-                <p>
-                    <a href="mailto:info@example.om">お問い合わせ</a> / <small>&copy; 2021 Kawase's Portfolio Site</small>
-                </p>
-            </div>
+            <form class="contact-form" action="#" method="POST" data-netlify="true">
+                <label>Name</label>
+                <input class="contact-field" type="text" placeholder="例：川瀬浩光">
+                <label>Email</label>
+                <input class="contact-field" type="email" placeholder="例：hello@example.com">
+                <label>Message</label>
+                <textarea name="message" class="contact-field"></textarea>
+                <input class="contact-btn" type="submit" value="Send">
+            </form>
         </section>
-
+        <footer>
+            <ul class="footer-nav">
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#skill">Skill</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <p><small>&copy; 2021 Kawase's Portfolio Site</small></p>
+        </footer>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
         <script src="js/script.js"></script>
 	</body>
 </html>
