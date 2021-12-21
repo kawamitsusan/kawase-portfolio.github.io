@@ -8,6 +8,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <link rel="stylesheet" href="https://unpkg.com/destyle.css@1.0.5/destyle.css">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/luminous-lightbox/2.3.2/luminous-basic.min.css">
         <link rel="stylesheet" href="https://use.typekit.net/fbj0zcb.css">
         <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
         <link href="css/style.css" rel="stylesheet">
@@ -41,7 +43,7 @@
 
         <section id="about" class="wrapper">
             <h2>About Me</h2>
-            <div class="about-list">
+            <div class="about-list" data-aos="fade-up">
                     <center>
                         <img  class="about-img" src="images/profile.jpg" alt="profile">
                     <center>
@@ -58,17 +60,117 @@
 
         <section id="portfolio">
             <h2>Portfolio</h2>
-            <div class="wrapper">
-
-                
-            </div>
+            
+                <main class="grid">
+                    <a class="grid-gallery" href="https://kkblab.com/oc2021/18071/index.html" data-aos="fade-up">
+                        <img class="grid-item"
+                            src="images/portfolio1.jpg"
+                            srcset="images/portfolio1.jpg 400w,
+                                    images/portfolio1.jpg 800w"
+                            alt="portfolio1">
+                        <div class="grid-text">
+                            歩行検知で動画再生するwebサイト<br>
+                            HTML/CSS/JavaScript
+                        </div>
+                    </a>
+                    <a class="grid-gallery" href="https://gasumasuo.com" data-aos="fade-up">
+                        <img class="grid-item"
+                            src="images/portfolio2.jpg"
+                            srcset="images/portfolio2.jpg 400w,
+                                    images/portfolio2.jpg 800w"
+                            alt="portfolio2">
+                            <div class="grid-text">
+                                WordPressで制作したブログサイト<br>
+                                WordPress/HTML/CSS
+                            </div>
+                    </a>
+                    <a class="grid-gallery" href="https://kawamitsusan.github.io/button.github.io/" data-aos="fade-up">
+                        <img class="grid-item"
+                            src="images/portfolio3.jpg"
+                            srcset="images/portfolio3.jpg 400w,
+                                    images/portfolio3.jpg 800w"
+                            alt="portfolio3">
+                            <div class="grid-text">
+                                ただボタンを押すだけのサイト<br>
+                                HTML/CSS/JavaScript
+                            </div>
+                    </a>
+                    <a class="grid-gallery" href="https://kawamitsusan.github.io/rokuon.github.io/" data-aos="fade-up">
+                        <img class="grid-item"
+                            src="images/portfolio4.jpg"
+                            srcset="images/portfolio4.jpg 400w,
+                                    images/portfolio4.jpg 800w"
+                            alt="portfolio4">
+                            <div class="grid-text">
+                                録音ができるサイト<br>
+                                音声認識を組み込んであるので話した言葉がそのままラベルになります<br>
+                                HTML/CSS/JavaScript
+                            </div>
+                    </a>
+                    <a class="grid-gallery" href="https://kawamitsusan.github.io/" data-aos="fade-up">
+                        <img class="grid-item"
+                            src="images/portfolio5.jpg"
+                            srcset="images/portfolio5.jpg 400w,
+                                    images/portfolio5.jpg 800w"
+                            alt="portfolio5">
+                            <div class="grid-text">
+                                インターネットの用語集サイト<br>
+                                HTML/CSS
+                            </div>
+                    </a>
+                    <a class="grid-gallery" href="https://kawase-portfolio.netlify.app/" data-aos="fade-up">
+                        <img class="grid-item"
+                            src="images/portfolio6.jpg"
+                            srcset="images/portfolio6.jpg 400w,
+                                    images/portfolio6.jpg 800w"
+                            alt="portfolio6">
+                            <div class="grid-text">
+                                ポートフォリオサイト<br>
+                                HTML/CSS/JavaScript
+                            </div>
+                    </a>
+                    <a class="grid-gallery-lumi" href="images/collage_1.png" data-aos="fade-up">
+                        <img class="grid-item"
+                            src="images/collage_1.png"
+                            srcset="images/collage_1.png 400w,
+                                    images/collage_1.png 800w"
+                            alt="a specimen">
+                            <div class="grid-text">
+                                デジタルコラージュ1<br>
+                                Photoshop/illustrator
+                            </div>
+                    </a>
+                    <a class="grid-gallery-lumi" href="images/collage_2.png" data-aos="fade-up">
+                        <img class="grid-item"
+                            src="images/collage_2.png"
+                            srcset="images/collage_2.png 400w,
+                                    images/collage_2.png 800w"
+                            alt="Time Paradox">
+                            <div class="grid-text">
+                                デジタルコラージュ2<br>
+                                Photoshop/illustrator
+                            </div>
+                    </a>
+                    <a class="grid-gallery-lumi" href="images/poster.png" data-aos="fade-up">
+                        <img class="grid-item"
+                            src="images/poster.png"
+                            srcset="images/poster.png 400w,
+                                    images/poster.png 800w"
+                            alt="時間奪われてますよ？">
+                            <div class="grid-text">
+                                SNS啓発ポスター<br>
+                                Photoshop/illustrator
+                            </div>
+                    </a>
+                </main>
+            
         </section>
 
         <section id="skill" class="fadein scrollin">
             <div class="skill_container">
               <h2>Skill</h2>
               <div class="skill_content">
-                <div class="skill_content_item">
+                <div class="skill_content_item" data-aos="fade-up">
                     <h3>主な経験済言語・ソフトウェア</h3>
                     <p>
                         HTML<br>CSS<br>JavaScript<br>
@@ -76,13 +178,13 @@
                         Photoshop<br>Illustrator<br>PremierePro<br>AfterEffects<br>
                     </p>
                 </div>
-                <div class="skill_content_item">
+                <div class="skill_content_item" data-aos="fade-up">
                     <h3>その他の経験済言語・ソフトウェア</h3>
                     <p>
                         SonicPi<br>processing<br>Scratch<br>ArduinoIDE
                     </p>
                 </div>
-                <div class="skill_content_item">
+                <div class="skill_content_item" data-aos="fade-up">
                     <h3>取得済の資格</h3>
                     <p>
                         基本情報技術者試験<br>情報セキュリティマネジメント試験<br>ITパスポート試験
@@ -113,6 +215,8 @@
             </ul>
             <p><small>&copy; 2021 Kawase's Portfolio Site</small></p>
         </footer>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/luminous-lightbox/2.3.2/luminous.min.js"></script>
         <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
         <script src="js/script.js"></script>
 	</body>

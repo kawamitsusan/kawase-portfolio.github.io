@@ -9,3 +9,11 @@ btn.addEventListener('click', () => {
     btn.innerHTML = 'Menu';
   }
 });
+
+new LuminousGallery(document.querySelectorAll('.grid-gallery-lumi'), {}, {
+  caption: function(trigger) {
+    return trigger.querySelector('img').getAttribute('alt');
+  }
+});
+
+AOS.init();
