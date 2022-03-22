@@ -144,7 +144,7 @@ header a {
 
 /*ABOUT*/
 #about {
-    padding: 4rem 1rem;
+    padding: 5rem 1rem;
 }
 #about h2 {
   background: linear-gradient(var(--yellow), var(--green));
@@ -161,7 +161,6 @@ header a {
 
 .about-text {
     margin-top: 1rem;
-    flex-wrap: nowrap;
 }
 
 #about h3 {
