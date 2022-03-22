@@ -161,6 +161,7 @@ header a {
 
 .about-text {
     margin-top: 1rem;
+    flex-wrap: nowrap;
 }
 
 #about h3 {
